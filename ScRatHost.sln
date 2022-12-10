@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32413.511
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScRatHost", "ScRatHost\ScRatHost.csproj", "{80830F23-5F7C-4E71-A6F3-15033DEC3503}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80830F23-5F7C-4E71-A6F3-15033DEC3503}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80830F23-5F7C-4E71-A6F3-15033DEC3503}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80830F23-5F7C-4E71-A6F3-15033DEC3503}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80830F23-5F7C-4E71-A6F3-15033DEC3503}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {23C7B0F1-425F-4F73-9AC1-2A803C7C800A}
+	EndGlobalSection
+EndGlobal
