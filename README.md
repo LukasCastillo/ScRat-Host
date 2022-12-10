@@ -15,7 +15,7 @@ download [path]                       - downloads the file specified by the path
 upload [sourcePath] [destinationPath] - transfers the file in the host computer to the current client.
 screenshot [width] [height]           - takes a screenshot of the current client's screen.
 exit                                  - terminates the current client ScRat process.
-stop ["exit"]                         - stops the ScRat server. If this is set to "exit" this will also terminate all the clients ScRat process.
+stop                                  - stops the ScRat server.
 ```
 
 Files that are downloaded from commands like "download" and "screenshot" will be separated into different files by the clients computer name.
