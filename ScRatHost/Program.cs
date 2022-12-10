@@ -77,7 +77,6 @@ namespace ScRatHost
                 }
                 else if (cmd == "stop")
                 {
-                    if(args == "exit") server.sendPacketToAll(new Packet(PacketType.Exit, new byte[0] { }));
                     Environment.Exit(0);
                 }
                 else if (cmd == "upload")
