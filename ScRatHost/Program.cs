@@ -77,14 +77,18 @@ namespace ScRatHost
                 }
                 else if (cmd == "stop")
                 {
-                    if(args == "exit") server.sendPacketToAll(new Packet(PacketType.Exit, new byte[0] { }));
                     Environment.Exit(0);
                 }
                 else if (cmd == "upload")
                 {
                     string[] paths = args.Split(' ');
+                    if(paths.Length < 2)
+                    {
+                        Console.WriteLine("Invalid arguments!");
+                        continue;
+                    }
                     byte[] fileData = Helper.readFile(paths[0]);
-                    server.ConsoleWriteLine("Reading file");
+                    server.ConsoleWriteLine("Reading file " + paths[0]);
                     if (fileData == null)
                         server.ConsoleWriteLine("Error: file " + paths[0] + " does not exist!");
                     else
