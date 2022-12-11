@@ -1,6 +1,9 @@
 # ScRat-Host
 The host server for the scuffed windows remote access tool ScRat
 
+## Disclamer
+I do not condone the use of this tool for any illegal activity. This is only for educational purposes. 
+
 Features:
 - Remote Shell
 - Remote Screenshot
