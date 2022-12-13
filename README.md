@@ -1,9 +1,6 @@
 # ScRat-Host
 The host server for the scuffed windows remote access tool ScRat
 
-## Disclamer
-I do not condone the use of this tool for any illegal activity. This is only for educational purposes. 
-
 Features:
 - Remote Shell
 - Remote Screenshot
@@ -27,3 +24,15 @@ Files that are downloaded from commands like "download" and "screenshot" will be
 
 ## ScRat Client Repo
 https://github.com/LukasCastillo/ScRat
+
+## Possible Bugs
+- some packets may get recived if their length is over 65,527.
+- ssh commands may fail and crash the client if the cmd command requres an input.
+
+## Upcoming Features (maybe)
+- screenshots not needing sizes
+- ability to take photos through webcam
+- interactive shell
+
+## Disclamer
+I do not condone the use of this tool for any illegal activity. This is only for educational purposes. 
